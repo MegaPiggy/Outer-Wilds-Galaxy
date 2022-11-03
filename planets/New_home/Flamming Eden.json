@@ -1,0 +1,49 @@
+{
+	"name" : "Flamming Eden",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 160,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3500,
+		"inclination" : 286,
+		"primaryBody" : "Second Home",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 107,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 170,
+		"fogTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		},
+		"fogDensity": 0.6,
+		"fogSize": 170,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Flamming_Eden_hightmap.jpg",	
+		"textureMap" : "planets/assets/Flamming_Eden_texturemap.jpg",	
+		"minHeight" : 165,
+		"maxHeight" : 155,
+	},
+}

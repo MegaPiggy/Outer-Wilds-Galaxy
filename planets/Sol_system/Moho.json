@@ -1,0 +1,32 @@
+{
+	"name" : "Moho",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 4000,
+		"inclination" : 1,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 48,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 29,
+		"axialTilt" : 0,
+		"trueAnomaly" : 174,
+		"siderealPeriod" : 17,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Moho_hightmap.png",	
+		"textureMap" : "planets/assets/Moho_texturemap.png",	
+		"minHeight" : 100,
+		"maxHeight" : 102,
+	}
+}

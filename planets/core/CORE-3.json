@@ -1,0 +1,54 @@
+{
+    "name" : "CORE-3",
+    "starSystem" : "Jammer.OuterWildsGalaxy",
+    "Base" :
+    {
+        "surfaceGravity" : 65,
+        "surfaceSize" : 1000,
+        "hasMapMarker" : true,
+	"gravityFallOff" : "inverseSquared",
+    },
+    "Orbit" :
+    {
+	"semiMajorAxis" : 60000,
+	"inclination" : 30,
+	"primaryBody" : "Core",
+	"isMoon" : false,
+	"isTidallyLocked" : true,
+	"longitudeOfAscendingNode" : 218,
+	"eccentricity" : 0.1,
+	"argumentOfPeriapsis": 192,
+    },
+    "Atmosphere" :
+    {
+        "size" : 1300,
+        "fogTint" : 
+        {
+		"r" : 255,
+		"g" : 177,
+		"b" : 69,
+		"a" : 255,
+        },
+        "fogDensity": 0.1,
+        "fogSize": 1300,
+    },
+    "Star" :
+    {
+        "size" : 1100,
+        "tint" : 
+        {
+		"r" : 255,
+		"g" : 177,
+		"b" : 69,
+		"a" : 255,
+        	},
+		"solarFlareTint" : 
+		{
+			"r" : 255,
+			"g" : 177,
+			"b" : 69,
+			"a" : 255,
+		},
+		"solarLuminosity" : 0.8
+	}
+}

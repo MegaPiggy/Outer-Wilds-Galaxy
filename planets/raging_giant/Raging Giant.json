@@ -1,0 +1,58 @@
+{
+    "name" : "Raging Giant",
+    "starSystem" : "Jammer.OuterWildsGalaxy",
+    "Base" :
+    {
+        "surfaceGravity" : 145,
+        "surfaceSize" : 1000,
+        "hasMapMarker" : true,
+	"gravityFallOff" : "inverseSquared",
+    }, 
+    "Orbit" :
+    {
+	"semiMajorAxis" : 300000,
+	"inclination" : 0,
+	"primaryBody" : "Core",
+	"isMoon" : false,
+	"isTidallyLocked" : true,
+	"longitudeOfAscendingNode" : 167,
+	"eccentricity" : 0,
+	"argumentOfPeriapsis": 192,
+    },
+    "Atmosphere" :
+    {
+        "size" : 11000,
+        "fogTint" : 
+        {
+		"r" : 156,
+		"g" : 0,
+		"b" : 0,
+		"a" : 255,
+        },
+        "fogDensity": 0.1,
+        "fogSize": 11000,
+    },
+    "Star" :
+    {
+        "size" : 10000,
+        "tint" : 
+        {
+		"r" : 156,
+		"g" : 0,
+		"b" : 0,
+		"a" : 255,
+        	},
+		"solarFlareTint" : 
+		{
+		"r" : 156,
+		"g" : 0,
+		"b" : 0,
+		"a" : 255,
+		},
+		"curve" : [
+			{"time" : 0, "value" : 1},
+
+		]
+		,"solarLuminosity" : 3
+	}
+}

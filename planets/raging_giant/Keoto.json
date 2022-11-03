@@ -1,0 +1,55 @@
+{
+	"name" : "Keoto",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 16,
+		"surfaceSize" : 320,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		},
+		"lavaSize" : 1,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 11285,
+		"inclination" : 281,
+		"primaryBody" : "Raging Giant",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 129,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 47,
+		"axialTilt" : 251,
+		"siderealPeriod" : 235
+	},
+	"Atmosphere" :
+	{
+		"size" : 400,
+		"cloudTint" : 
+		{
+			"r" : 255,
+			"g" : 147,
+			"b" : 59,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Keoto_clouds.png",
+		"cloudCap" : "planets/assets/Keoto_cap.png",
+		"cloudRamp" : "planets/assets/Keoto_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 147,
+			"b" : 56,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 400,
+	}
+}

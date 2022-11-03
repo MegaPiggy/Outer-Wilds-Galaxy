@@ -1,0 +1,55 @@
+{
+	"name" : "Pearl Giant",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 500,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		},
+		"lavaSize" : 1,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 48900,
+		"inclination" : 328,
+		"primaryBody" : "Bright Jewel",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 32,
+		"axialTilt" : 232,
+		"siderealPeriod" : 46
+	},
+	"Atmosphere" :
+	{
+		"size" : 600,
+		"cloudTint" : 
+		{
+			"r" : 162,
+			"g" : 112,
+			"b" : 255,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Pearl_Giant_clouds.png",
+		"cloudCap" : "planets/assets/Tornado2.png",
+		"cloudRamp" : "planets/assets/Pearl_Giant_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 162,
+			"g" : 112,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 600,
+	}
+}

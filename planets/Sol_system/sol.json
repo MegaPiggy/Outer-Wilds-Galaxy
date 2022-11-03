@@ -1,0 +1,54 @@
+{
+	"name" : "Sol",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 200000,
+		"inclination" : 0,
+		"primaryBody" : "Core",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 218,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 56,
+	},
+	"Atmosphere" :
+	{
+		"size" : 2500,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 100,
+		"fogSize": 2200,
+	},
+	"Star" :
+	{
+		"size" : 2200,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 1
+	}
+}

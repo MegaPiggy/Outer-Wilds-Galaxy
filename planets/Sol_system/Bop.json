@@ -1,0 +1,36 @@
+{
+	"name" : "Bop",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 55,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 4000,
+		"inclination" : 36,
+		"primaryBody" : "Jool",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 75,
+		"eccentricity" : 0.5,
+		"argumentOfPeriapsis": 57,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Gilly_hightmap.png",	
+		"textureMap" : "planets/assets/Bop_texturemap.png",	
+		"minHeight" : 15,
+		"maxHeight" : 65,
+	}
+}

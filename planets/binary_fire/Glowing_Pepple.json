@@ -1,0 +1,37 @@
+{
+	"name" : "Glowing Pebble",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		},
+		"lavaSize" : 100,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1500,
+		"inclination" : 10,
+		"primaryBody" : "Scorched Fire",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 32,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/glowing_pepple_hightmap.png",	
+		"textureMap" : "planets/assets/glowing_pepple__texturemap.png",	
+		"minHeight" : 97,
+		"maxHeight" : 110,
+	}
+}

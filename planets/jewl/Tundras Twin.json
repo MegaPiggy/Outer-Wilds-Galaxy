@@ -1,0 +1,59 @@
+{
+	"name" : "Tundras Twin",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 17,
+		"surfaceSize" : 430,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 66,
+			"g" : 203,
+			"b" : 245,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 65000,
+		"inclination" : 328,
+		"primaryBody" : "Bright Jewel",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 32,
+		"axialTilt" : 145,
+	},
+	"Atmosphere" :
+	{
+		"size" : 500,
+		"cloudTint" : 
+		{
+			"r" : 66,
+			"g" : 203,
+			"b" : 245,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Tilivt.png",
+		"cloudCap" : "planets/assets/Tilivt_cap.png",
+		"cloudRamp" : "planets/assets/Tilivt_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 66,
+			"g" : 203,
+			"b" : 245,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 500,
+	},
+	"Ring" : 
+	{
+		"innerRadius" : 700,
+		"outerRadius" : 1000,
+		"texture" : "planets/assets/Tilivt_ring.png",
+	},
+}

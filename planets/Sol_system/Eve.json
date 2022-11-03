@@ -1,0 +1,56 @@
+{
+	"name" : "Eve",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 15,
+		"waterSize" : 280,
+		"surfaceSize" : 280,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 6000,
+		"inclination" : 1,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 2,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 9,
+		"axialTilt" : 260,
+		"trueAnomaly" : 17,
+		"siderealPeriod" : 28,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Eve_hightmap.png",	
+		"textureMap" : "planets/assets/Eve_texturemap.png",	
+		"minHeight" : 270,
+		"maxHeight" : 330,
+	},
+	"Atmosphere" :
+	{
+		"size" : 350,
+		"cloudTint" : 
+		{
+			"r" : 255,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Eve_clouds.png",
+		"cloudCap" : "planets/assets/Eve_cap.png",
+		"cloudRamp" : "planets/assets/Eve_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 350,
+	},
+}

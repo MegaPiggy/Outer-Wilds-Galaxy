@@ -1,0 +1,42 @@
+{
+    "name" : "CORE-4",
+    "starSystem" : "Jammer.OuterWildsGalaxy",
+    "Base" :
+    {
+        "surfaceGravity" : 9230,
+        "surfaceSize" : 20,
+        "hasMapMarker" : true,
+	"gravityFallOff" : "inverseSquared",
+    },
+    "Orbit" :
+    {
+	"semiMajorAxis" : 67561,
+	"inclination" : 119,
+	"primaryBody" : "Core",
+	"isMoon" : false,
+	"isTidallyLocked" : false,
+	"longitudeOfAscendingNode" : 253.8,
+	"eccentricity" : 0.0293,
+	"argumentOfPeriapsis": 280,
+     },
+     "Ring" : 
+     {
+	"innerRadius" : 20,
+	"outerRadius" : 900,
+	"inclination" : 7,
+	"rotationSpeed" : -154,
+	"texture" : "planets/assets/accretion_disk.png",
+    },	
+    "Star" :
+    {
+        "size" : 20,
+        "tint" : 
+        {
+		"r" : 3,
+		"g" : 102,
+		"b" : 252,
+		"a" : 255,
+        	},
+		"solarLuminosity" : 0.8
+	}
+}

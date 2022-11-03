@@ -1,0 +1,59 @@
+{
+	"name" : "Foggy Ice",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 15,
+		"surfaceSize" : 290,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 13000,
+		"inclination" : 286,
+		"primaryBody" : "Second Home",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 107,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 330,
+		"CloudTint" : 
+		{
+			"r" : 100,
+			"g" : 100,
+			"b" : 255,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Idk_clouds.png",
+		"cloudCap" : "planets/assets/Idk_cap.png",
+		"cloudRamp" : "planets/assets/Idk_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 100,
+			"g" : 100,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 330,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Idk_hightmap.jpg",	
+		"textureMap" : "planets/assets/Idk_texturemap.jpg",	
+		"minHeight" : 280,
+		"maxHeight" : 300,
+	},
+}

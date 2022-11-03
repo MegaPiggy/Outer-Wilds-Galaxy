@@ -1,0 +1,11 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Jammer",
+  "name": "Outer Wilds Galaxy",
+  "uniqueName": "Jammer.OuterWildsGalaxy",
+  "version": "1.14.0",
+  "owmlVersion": "2.7.3",
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
+}

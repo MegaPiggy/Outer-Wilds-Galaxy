@@ -1,0 +1,36 @@
+{
+	"name" : "Minmus",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 3,
+		"surfaceSize" : 40,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1300,
+		"inclination" : 20,
+		"primaryBody" : "Kerbin",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Minmus_hightmap.png",	
+		"textureMap" : "planets/assets/Minmus_texturemap.png",	
+		"minHeight" : 30,
+		"maxHeight" : 50,
+	}
+}

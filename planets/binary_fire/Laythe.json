@@ -1,0 +1,59 @@
+{
+	"name" : "Laythe",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 250,
+		"waterSize" : 215,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3500,
+		"inclination" : 133,
+		"primaryBody" : "Homeworld",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Laythe_hightmap.png",	
+		"textureMap" : "planets/assets/Laythe_texturemap.png",	
+		"minHeight" : 200,
+		"maxHeight" : 270,
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 270,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 270,
+	},
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 20}
+		]
+	},
+}

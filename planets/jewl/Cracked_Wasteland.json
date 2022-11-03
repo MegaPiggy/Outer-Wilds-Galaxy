@@ -1,0 +1,49 @@
+{
+	"name" : "Cracked Wasteland",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 5,
+		"surfaceSize" : 112,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3350,
+		"inclination" : 3,
+		"primaryBody" : "Pearl Giant",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 32,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 150,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 232,
+			"b" : 41,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 160,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Cracked_Wasteland_hightmap.jpg",	
+		"textureMap" : "planets/assets/Cracked_Wasteland_texturemap.jpg",	
+		"minHeight" : 110,
+		"maxHeight" : 114,
+	},
+}

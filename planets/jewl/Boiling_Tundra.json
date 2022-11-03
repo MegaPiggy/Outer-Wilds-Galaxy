@@ -1,0 +1,68 @@
+{
+	"name" : "Boiling Tundra",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 16,
+		"surfaceSize" : 260,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 30500,
+		"inclination" : 328,
+		"primaryBody" : "Bright Jewel",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 32,
+		"axialTilt" : 215,
+		"siderealPeriod" : 35
+	},
+	"Atmosphere" :
+	{
+		"size" : 350,
+		"CloudTint" : 
+		{
+			"r" : 212,
+			"g" : 214,
+			"b" : 79,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Boiling_Tundra_clouds.png",
+		"cloudCap" : "planets/assets/Boiling_Tundra_cap.png",
+		"cloudRamp" : "planets/assets/Boiling_Tundra_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 212,
+			"g" : 214,
+			"b" : 79,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 350,
+		"hasSnow" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Eeloo_hightmap.png",	
+		"textureMap" : "planets/assets/Boiling_Tundra_texturemap.png",	
+		"minHeight" : 258,
+		"maxHeight" : 268,
+	},
+	"Ring" : 
+	{
+		"innerRadius" : 420,
+		"outerRadius" : 690,
+		"texture" : "planets/assets/Boiling_Tundra_rings.png",
+	},
+}

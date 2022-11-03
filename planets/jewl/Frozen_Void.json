@@ -1,0 +1,36 @@
+{
+	"name" : "Frozen Void",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 4.5,
+		"surfaceSize" : 88,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1950,
+		"inclination" : 3,
+		"primaryBody" : "Pearl Giant",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 32,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Frozen_Void_hightmap.jpg",	
+		"textureMap" : "planets/assets/Frozen_Void_texturemap.jpg",	
+		"minHeight" : 80,
+		"maxHeight" : 90,
+	},
+}

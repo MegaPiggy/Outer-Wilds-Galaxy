@@ -1,0 +1,47 @@
+{
+    "name" : "Second Home",
+    "starSystem" : "Jammer.OuterWildsGalaxy",
+    "Base" :
+    {
+        "surfaceGravity" : 80,
+        "surfaceSize" : 1000,
+        "hasMapMarker" : true,
+	"gravityFallOff" : "inverseSquared",
+    },
+    "Orbit" :
+    {
+	"semiMajorAxis" : 100000,
+	"inclination" : 0,
+	"primaryBody" : "Core",
+	"isMoon" : false,
+	"isTidallyLocked" : true,
+	"longitudeOfAscendingNode" : 218,
+	"eccentricity" : 0,
+	"argumentOfPeriapsis": 192,
+    },
+    "Atmosphere" :
+    {
+        "size" : 1700,
+        "fogTint" : 
+        {
+		"r" : 252,
+		"g" : 250,
+		"b" : 18,
+		"a" : 255,
+        },
+        "fogDensity": 0.1,
+        "fogSize": 1700,
+    },
+    "Star" :
+    {
+        "size" : 1600,
+        "tint" : 
+        {
+		"r" : 255,
+		"g" : 255,
+		"b" : 156,
+		"a" : 255,
+        	},
+		"solarLuminosity" : 0.8
+	}
+}

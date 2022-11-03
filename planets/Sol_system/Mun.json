@@ -1,0 +1,36 @@
+{
+	"name" : "Mun",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 5,
+		"surfaceSize" : 80,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 700,
+		"inclination" : 0,
+		"primaryBody" : "Kerbin",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Mun.png",	
+		"textureMap" : "planets/assets/Mun.png",	
+		"minHeight" : 90,
+		"maxHeight" : 70,
+	}
+}

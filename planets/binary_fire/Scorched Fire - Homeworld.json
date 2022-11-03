@@ -1,0 +1,25 @@
+{
+	"name" : "Scorched Fire - Homeworld",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+        	"hasMapMarker" : true,
+        	"gravityFallOff" : "inverseSquared",
+	},
+ 	"Orbit" :
+    	{
+	"semiMajorAxis" : 200000,
+	"inclination" : 0,
+	"primaryBody" : "Core",
+	"isMoon" : false,
+	"isTidallyLocked" : true,
+	"longitudeOfAscendingNode" : 330,
+	"eccentricity" : 0,
+	"argumentOfPeriapsis": 132,
+	},
+	"FocalPoint" :
+	{
+		"Primary" : "Scorched Fire",
+		"Secondary" : "Homeworld",
+	}
+}

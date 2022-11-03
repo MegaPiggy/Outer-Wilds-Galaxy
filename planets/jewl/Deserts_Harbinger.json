@@ -1,0 +1,37 @@
+{
+	"name" : "Deserts Harbinger",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 72,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		},
+		"lavaSize" : 70,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 800,
+		"inclination" : 210,
+		"primaryBody" : "Molten Desert",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 32,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Deserts_Harbinger_hightmap.jpg",	
+		"textureMap" : "planets/assets/Deserts_Harbinger_texturemap.jpg",	
+		"minHeight" : 60,
+		"maxHeight" : 80,
+	}
+}

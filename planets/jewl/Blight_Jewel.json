@@ -1,0 +1,54 @@
+{
+    "name" : "Bright Jewel",
+    "starSystem" : "Jammer.OuterWildsGalaxy",
+    "Base" :
+    {
+        "surfaceGravity" : 160,
+        "surfaceSize" : 1000,
+        "hasMapMarker" : true,
+	"gravityFallOff" : "inverseSquared",
+    }, 
+    "Orbit" :
+    {
+	"semiMajorAxis" : 300000,
+	"inclination" : 30,
+	"primaryBody" : "Core",
+	"isMoon" : false,
+	"isTidallyLocked" : true,
+	"longitudeOfAscendingNode" : 50,
+	"eccentricity" : 0,
+	"argumentOfPeriapsis": 50,
+    },
+    "Atmosphere" :
+    {
+        "size" : 3600,
+        "fogTint" : 
+        {
+		"r" : 41,
+		"g" : 234,
+		"b" : 255,
+		"a" : 255,
+        },
+        "fogDensity": 0.1,
+        "fogSize": 3600,
+    },
+    "Star" :
+    {
+        "size" : 3500,
+        "tint" : 
+        {
+		"r" : 201,
+		"g" : 232,
+		"b" : 255,
+		"a" : 255,
+        	},
+		"solarFlareTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 2
+	}
+}

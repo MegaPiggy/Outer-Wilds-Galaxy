@@ -1,0 +1,36 @@
+{
+	"name" : "Icy Rock",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false,
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1750,
+		"inclination" : 101,
+		"primaryBody" : "Frosty Drifter",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 48,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 36,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/icy_rock_hightmap.jpg",	
+		"textureMap" : "planets/assets/icy_rock_texturemap.jpg",	
+		"minHeight" : 99,
+		"maxHeight" : 100,
+	}
+}

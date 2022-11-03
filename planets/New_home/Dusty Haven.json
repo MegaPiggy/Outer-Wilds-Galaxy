@@ -1,0 +1,49 @@
+{
+	"name" : "Dusty Haven",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 220,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 5000,
+		"inclination" : 286,
+		"primaryBody" : "Second Home",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 107,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 250,
+		"fogTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		},
+		"fogDensity": 0.2,
+		"fogSize": 250,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Dusty_haven_hightmap.jpg",	
+		"textureMap" : "planets/assets/Dusty_haven_texturemap.jpg",	
+		"minHeight" : 210,
+		"maxHeight" : 230,
+	},
+}

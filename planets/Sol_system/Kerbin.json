@@ -1,0 +1,96 @@
+{
+	"name" : "Kerbin",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{
+			"x" : 224.3,
+			"y" : -28.2,
+			"z" : -128.5,
+		},
+		"shipSpawnPoint" :
+		{
+			"x" : 221.9,
+			"y" : -33.1,
+			"z" : -141.8,
+		},
+		"startwithSuit" : true
+	},
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 250,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 8500,
+		"inclination" : 0,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"siderealPeriod" : 30
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Kerbin_hightmap.png",	
+		"textureMap" : "planets/assets/Kerbin_texturemap.png",	
+		"minHeight" : 230,
+		"maxHeight" : 270,
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 300,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 300,
+	},
+	"Water": {
+		"size" : 240,
+		"tint":
+		{
+			"r" : 3,
+			"g" : 157,
+			"b" : 252,
+			"a" : 255
+		},
+	},
+	"Water" : {
+		"size" : 240,
+		"tint":
+		{
+			"r" : 3,
+			"g" : 157,
+			"b" : 252,
+			"a" : 255
+		},
+	},
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 300}
+		]
+	},
+}

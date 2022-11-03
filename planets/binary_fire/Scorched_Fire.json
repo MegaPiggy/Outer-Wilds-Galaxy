@@ -1,0 +1,44 @@
+{
+    "name" : "Scorched Fire",
+    "starSystem" : "Jammer.OuterWildsGalaxy",
+    "Base" :
+    {
+        "surfaceGravity" : 35,
+        "surfaceSize" : 1000,
+        "hasMapMarker" : true,
+	"gravityFallOff" : "inverseSquared",
+    },
+    "Orbit" :
+    {
+        "semiMajorAxis" : 0,
+        "inclination" : 0,
+	"eccentricity" : 0.2,
+        "primaryBody" : "Scorched Fire - Homeworld",
+        "showOrbitLine" : true,
+    },
+    "Atmosphere" :
+    {
+        "size" : 820,
+        "fogTint" : 
+        {
+		"r" : 212,
+		"g" : 40,
+		"b" : 28,
+		"a" : 255,
+        },
+        "fogDensity": 0.1,
+        "fogSize": 8200,
+    },
+    "Star" :
+    {
+        "size" : 800,
+        "tint" : 
+        {
+		"r" : 212,
+		"g" : 40,
+		"b" : 28,
+		"a" : 255,
+        	},
+		"solarLuminosity" : 0.5
+	}
+}

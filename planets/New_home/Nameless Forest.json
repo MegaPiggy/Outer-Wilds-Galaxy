@@ -1,0 +1,58 @@
+{
+	"name" : "Nameless Forest",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 13,
+		"waterSize" : 260,
+		"surfaceSize" : 260,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 7000,
+		"inclination" : 286,
+		"primaryBody" : "Second Home",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 107,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 310,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 310,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Nameless_forest_hightmap.jpg",	
+		"textureMap" : "planets/assets/Nameless_forest_texturemap.jpg",	
+		"minHeight" : 240,
+		"maxHeight" : 270,
+	},
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 10}
+		]
+	},
+}

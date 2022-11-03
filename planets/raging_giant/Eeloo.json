@@ -1,0 +1,69 @@
+{
+	"name" : "Eeloo",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 130,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 25785,
+		"inclination" : 281,
+		"primaryBody" : "Raging Giant",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 129,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 47,
+		"axialTilt" : 107,
+		"siderealPeriod" : 78
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"hasSnow" : true,
+		"size" : 180,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 180,
+	},
+	"Water" : {
+		"size" : 130,
+		"tint":
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"curve" : [
+			{"time" : 0, "value" : 0.97},
+			{"time" : 5, "value" : 1},
+			{"time" : 11, "value" : 1.03}
+		]
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Eeloo_hightmap.jpg",	
+		"textureMap" : "planets/assets/Eloo_texturemap.jpg",	
+		"minHeight" : 140,
+		"maxHeight" : 120,
+	}
+}

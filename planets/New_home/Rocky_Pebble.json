@@ -1,0 +1,36 @@
+{
+	"name" : "Rocky Pebble",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 84,
+			"g" : 73,
+			"b" : 61,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 15000,
+		"inclination" : 254,
+		"primaryBody" : "Second Home",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 107,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Rocky_Pebble_hightmap.jpg",	
+		"textureMap" : "planets/assets/Rocky_Pebble_texturemap.jpg",	
+		"minHeight" : 97,
+		"maxHeight" : 103,
+	},
+}

@@ -1,0 +1,36 @@
+{
+	"name" : "Vall",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 200,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3500,
+		"inclination" : 0,
+		"primaryBody" : "Jool",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Vall_hightmap.png",	
+		"textureMap" : "planets/assets/Vall_texturemap.png",	
+		"minHeight" : 195,
+		"maxHeight" : 205,
+	},
+}

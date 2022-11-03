@@ -1,0 +1,49 @@
+{
+	"name" : "Duna",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 7,
+		"surfaceSize" : 230,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 14000,
+		"inclination" : 2,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 255,
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 52,
+			"b" : 28,
+			"a" : 255
+		},
+		"fogDensity": 0.6,
+		"fogSize": 255,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Duna_hightmap.png",	
+		"textureMap" : "planets/assets/Duna_texturemap.png",	
+		"minHeight" : 230,
+		"maxHeight" : 235,
+	}
+}

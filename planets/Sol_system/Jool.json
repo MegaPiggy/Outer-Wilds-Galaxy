@@ -1,0 +1,53 @@
+{
+	"name" : "Jool",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 20,
+		"surfaceSize" : 500,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 212,
+			"g" : 40,
+			"b" : 28,
+			"a" : 255
+		},
+		"lavaSize" : 10,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 30000,
+		"inclination" : 1,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 68,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 600,
+		"cloudTint" : 
+		{
+			"r" : 0,
+			"g" : 255,
+			"b" : 0,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/Jool_clouds.png",
+		"cloudCap" : "planets/assets/Jool_cap.png",
+		"cloudRamp" : "planets/assets/Jool_ramp.png",
+		"fogTint" : 
+		{
+			"r" : 0,
+			"g" : 255,
+			"b" : 0,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 600,
+	},
+}

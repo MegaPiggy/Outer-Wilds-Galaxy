@@ -1,0 +1,36 @@
+{
+	"name" : "Frosty Drifter",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 200000,
+		"inclination" : 0,
+		"primaryBody" : "Core",
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 150,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 213,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Frosty_Drifter_hightmap.png",	
+		"textureMap" : "planets/assets/Frosty_Drifter_texturemap.png",	
+		"minHeight" : 299,
+		"maxHeight" : 300,
+	}
+}

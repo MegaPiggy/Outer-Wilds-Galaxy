@@ -1,0 +1,39 @@
+{
+	"name" : "Molten Desert",
+	"starSystem" : "Jammer.OuterWildsGalaxy",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 212,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		},
+		"lavaSize" : 213,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10500,
+		"inclination" : 328,
+		"primaryBody" : "Bright Jewel",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 32,
+		"axialTilt" : 191,
+		"siderealPeriod" : 87
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Molten_Desert_hightmap.jpg",	
+		"textureMap" : "planets/assets/Molten_Desert_texturemap.jpg",	
+		"minHeight" : 208,
+		"maxHeight" : 220,
+	}
+}
