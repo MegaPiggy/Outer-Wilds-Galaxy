@@ -35,6 +35,7 @@
     "Star" :
     {
         "size" : 1600,
+	"stellarDeathType": "none",
         "tint" : 
         {
 		"r" : 255,

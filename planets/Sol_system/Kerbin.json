@@ -1,19 +1,20 @@
 {
 	"name" : "Kerbin",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"starSystem" : "Jammer.OuterWildsGalaxy",
 	"Spawn" : 
 	{
 		"playerSpawnPoint" :
 		{
-			"x" : 224.3,
+			"x" : 324.3,
 			"y" : -28.2,
-			"z" : -128.5,
+			"z" : -228.5
 		},
 		"shipSpawnPoint" :
 		{
-			"x" : 221.9,
+			"x" : 321.9,
 			"y" : -33.1,
-			"z" : -141.8,
+			"z" : -241.8
 		},
 		"startwithSuit" : true
 	},
@@ -48,9 +49,10 @@
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/Kerbin_hightmap.png",	
+		"resolution": 1080,
 		"textureMap" : "planets/assets/Kerbin_texturemap.png",	
 		"minHeight" : 230,
-		"maxHeight" : 270,
+		"maxHeight" : 270
 	},
 	"Atmosphere" :
 	{
@@ -65,17 +67,7 @@
 			"a" : 255
 		},
 		"fogDensity": 0.5,
-		"fogSize": 300,
-	},
-	"Water": {
-		"size" : 240,
-		"tint":
-		{
-			"r" : 3,
-			"g" : 157,
-			"b" : 252,
-			"a" : 255
-		},
+		"fogSize": 300
 	},
 	"Water" : {
 		"size" : 240,
@@ -85,12 +77,12 @@
 			"g" : 157,
 			"b" : 252,
 			"a" : 255
-		},
+		}
 	},
 	"Props" :
 	{
 		"scatter" : [
 			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 300}
 		]
-	},
+	}
 }

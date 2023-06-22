@@ -21,7 +21,7 @@
 	{
 		"innerRadius" : 5000,
 		"outerRadius" : 18000,
-		"inclination" : 90,
+		"inclination" : 0,
 		"rotationSpeed" : -10,
 		"texture" : "planets/assets/proto_disk.png",
 	},	

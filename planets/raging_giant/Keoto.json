@@ -18,7 +18,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 11285,
+		"semiMajorAxis" : 12285,
 		"inclination" : 281,
 		"primaryBody" : "Raging Giant",
 		"isMoon" : false,

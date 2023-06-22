@@ -11,7 +11,7 @@
     "Orbit" :
     {
 	"semiMajorAxis" : 4000,
-	"inclination" : 0,
+	"inclination" : 90,
 	"primaryBody" : "Nevlar - Tevlar",
 	"isMoon" : false,
 	"isTidallyLocked" : true,
@@ -35,6 +35,7 @@
     "Star" :
     {
         "size" : 1310,
+	"stellarDeathType": "none",
         "tint" : 
         {
 			"r" : 255,

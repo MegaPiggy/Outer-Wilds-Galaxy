@@ -14,13 +14,14 @@
 	{
 		"innerRadius" : 2500,
 		"outerRadius" : 50000,
-		"inclination" : 90,
+		"inclination" : 0,
 		"rotationSpeed" : -24,
 		"texture" : "planets/assets/accretion_disk.png",
 	},	
 	"Star" :
     	{
         "size" : 2500,
+	"stellarDeathType": "none",
         "tint" : 
         {
 		"r" : 0,
@@ -35,6 +36,6 @@
 			"b" : 0,
 			"a" : 255
 		},
-		"solarLuminosity" : 1
+		"solarLuminosity" : 4
 	}
 }

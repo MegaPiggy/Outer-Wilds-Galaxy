@@ -1,12 +1,13 @@
 {
     "name" : "Raging Giant",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "starSystem" : "Jammer.OuterWildsGalaxy",
     "Base" :
     {
         "surfaceGravity" : 145,
         "surfaceSize" : 1000,
         "hasMapMarker" : true,
-	"gravityFallOff" : "inverseSquared",
+	"gravityFallOff" : "inverseSquared"
     }, 
     "Orbit" :
     {
@@ -17,7 +18,7 @@
 	"isTidallyLocked" : true,
 	"longitudeOfAscendingNode" : 167,
 	"eccentricity" : 0,
-	"argumentOfPeriapsis": 192,
+	"argumentOfPeriapsis": 192
     },
     "Atmosphere" :
     {
@@ -27,32 +28,42 @@
 		"r" : 156,
 		"g" : 0,
 		"b" : 0,
-		"a" : 255,
+		"a" : 255
         },
         "fogDensity": 0.1,
-        "fogSize": 11000,
+        "fogSize": 11000
     },
     "Star" :
     {
         "size" : 10000,
+		"stellarDeathType": "supernova",
+		"supernovaSpeed": 20000,
+		"supernovaSize": 1000000,
         "tint" : 
         {
 		"r" : 156,
 		"g" : 0,
 		"b" : 0,
-		"a" : 255,
+		"a" : 255
         	},
 		"solarFlareTint" : 
 		{
 		"r" : 156,
 		"g" : 0,
 		"b" : 0,
-		"a" : 255,
+		"a" : 255
 		},
 		"curve" : [
 			{"time" : 0, "value" : 1},
+			{"time" : 22, "value" : 3}
 
 		]
 		,"solarLuminosity" : 3
+	},
+	"endTint": {
+		"r" : 50,
+		"g" : 0,
+		"b" : 0,
+		"a" : 255
 	}
 }
